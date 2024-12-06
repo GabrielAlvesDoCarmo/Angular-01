@@ -7,7 +7,21 @@ import { Component } from '@angular/core';
   template: `
     <div class="card-button">Adiquirir</div>
   `,
-  styleUrl: './card-button.component.scss'
+  // styleUrl: './card-button.component.scss'
+  styles: [
+    `
+      .card-button {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-color: white;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 10px;
+      }
+    `
+  ]
 })
 export class CardButtonComponent {
 
