@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './card-one.component.scss'
 })
 export class CardOneComponent {
-
+  type = "Simples";
+  price = 100;
 }
