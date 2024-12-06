@@ -9,5 +9,15 @@ import { Component } from '@angular/core';
 })
 export class CardOneComponent {
   type = "Simples";
-  price = 100;
+  price = 1000;
+
+  getFullPrice(){
+    setTimeout(() => {
+      console.log("Set Timeout");
+      this.type = "TESTE PORRA";
+      this.price += 1000;
+    }, 4000);
+
+    return "R$ " + this.price + ",00/Mês";
+  }
 }
