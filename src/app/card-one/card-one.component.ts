@@ -8,6 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './card-one.component.scss'
 })
 export class CardOneComponent {
+  plano = {
+    infos: {
+      type: "Simples",
+      price: 1000
+    }
+  } 
+
   type = "Simples";
   price = 1000;
 
